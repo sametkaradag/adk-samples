@@ -125,7 +125,7 @@ For running tests and evaluation, install the extra dependencies:
 poetry install --with dev
 ```
 
-Then the tests and evaluation can be run from the `financial-advisor` directory using
+Then the tests and evaluation can be run from the `data-engineering` directory using
 the `pytest` module:
 
 ```bash
@@ -140,7 +140,7 @@ that the agent's responses match a pre-defined response reasonably well.
 
 ## Deployment
 
-The Financial Advisor can be deployed to Vertex AI Agent Engine using the following
+The Data Engineering Agent can be deployed to Vertex AI Agent Engine using the following
 commands:
 
 ```bash
